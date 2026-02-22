@@ -8,6 +8,8 @@ def home():
     <h1>🚀 Hello, CI/CD!</h1>
     <p>Flask + Vercel 배포 실습</p>
     <a href="/about">About 페이지</a>
+    <h1>🎉 자동 배포 성공!</h1>
+    <p>코드를 수정하고 push했더니 자동으로 배포되었습니다.</p>
     """
 
 @app.route("/about")
