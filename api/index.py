@@ -3,7 +3,7 @@ from flask import Flask
 app = Flask(__name__)
 
 @app.route("/")
-def home()
+def home():
     return """
     <h1>🚀 Hello, CI/CD!</h1>
     <p>Flask + Vercel 배포 실습</p>
